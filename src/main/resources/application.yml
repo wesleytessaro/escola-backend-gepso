@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /escola
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: postgres://ahoupkiuuuvfxc:fecf5ef4822a897ac6541877ec0e7fb813ccf03c85d7b701f3df591977e045e8@ec2-3-215-57-87.compute-1.amazonaws.com:5432/d6p6ldocb19e2a
+    username: ahoupkiuuuvfxc
+    password: fecf5ef4822a897ac6541877ec0e7fb813ccf03c85d7b701f3df591977e045e8
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    generate-ddl: true
+application:
+  description: Projeto Backend - Escola
